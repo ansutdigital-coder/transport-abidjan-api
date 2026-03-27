@@ -3,8 +3,8 @@ Connexion à Neon PostGIS avec pool de connexions.
 """
 
 import os
-import psycopg2
-from psycopg2 import pool
+import psycopg
+from psycopg import pool
 from dotenv import load_dotenv
 
 load_dotenv()
